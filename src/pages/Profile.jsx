@@ -257,10 +257,9 @@ onClick={async () => {
 
     try {
   
-      await updateProfile(auth.currentUser, {
-        displayName: name,
-        photoURL: avatar,
-      })
+        await updateProfile(auth.currentUser, {
+            displayName: name,
+          })
   
       if (newEmail !== user.email) {
   
