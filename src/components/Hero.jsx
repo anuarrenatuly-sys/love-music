@@ -32,7 +32,7 @@ export default function Hero() {
           <div className="absolute w-[400px] h-[400px] bg-purple-600/20 blur-[120px] rounded-full" />
   
           <img
-            src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1400&auto=format&fit=crop"
+            src="https://images.openai.com/static-rsc-4/sFyuUX_1httkLDQKoM1Nn3UYNhBuqZBYJMxEWhJUPQv9a18JgQY_GCr4h1QRnpc1xij-ial_UaW6TndNH-B2W-Om0aFIXpAbQrzvMUptTSIEVWM-tm3LHvOeZOFwHG6p2XBgEguESCdf8qfg_aQbUNwcUEVBG4uPKFDMl5lb8KpLb80wHW5v7VhcphPsQg9B?purpose=fullsize"
             alt=""
             className="relative z-10 rounded-[40px] object-cover w-full max-w-[600px] h-[500px] shadow-2xl border border-white/10"
           />

@@ -3,19 +3,19 @@ export default function Categories() {
       {
         title: 'Гитаралар',
         image:
-          'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&w=1200&auto=format&fit=crop',
+          'https://images.openai.com/static-rsc-4/7qmhLCtaEPASD9ecXmHvDHAXmUEwwEejP_bbqVS9EXVM6fBxCd_BVInMJfozhdTTMTSE2AKq8W4RnE43Ymxhw0VSdq3OA0t-QT3hcHgRBTZzYPQ2LKkfwiQhjzlj3IIdaITNZUSME0cYjEli0KtyFXFUho6yI4CyHKGmU3iRURMI6qXeKhw3VZt588g5ktCT?purpose=fullsize',
       },
   
       {
         title: 'Пианино',
         image:
-          'https://images.unsplash.com/photo-1514119412350-e174d90d280e?q=80&w=1200&auto=format&fit=crop',
+          'https://images.openai.com/static-rsc-4/HCFbpiCgGmnyQqtEp8KsP4FUUFedcYepJg3R5-MOHlzv2C5MQBclcedfsalq2xXsZyjcxJjtfQMUemUFuf7Ywf64qv0bGfwK8EMwOD3CseghO84BVVh-soLSPUDMgfzYoxzTZHlm5uKPIt9CfKtLBZyy5r6yiOkj-OtlDpbBfqSTFcwJTY50WqCHTBcxGIUR?purpose=fullsize',
       },
   
       {
         title: 'Барабандар',
         image:
-          'https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1200&auto=format&fit=crop',
+          'https://images.openai.com/static-rsc-4/G31jljj27jspI2TgMHto_7m9MSVfb27HO14w3I9qGTKaPsRyHc-ieVPCyQ8jUNxi04_a_ANGuOyxG2pxaqnfo5qXOd6rjxwi-DQXHIJhNG320puKtsEmLrxAJLKoRtVmHpkP2VqEKc5SKFwyikQ36_rs2LLbDUT15R1LoNx8INaVkRrn3owC4VeItg5r2uc5?purpose=fullsize',
       },
     ]
   

@@ -102,7 +102,7 @@ const [contactMessage, setContactMessage] = useState('')
     <div>
 
       <img
-        src="https://images.unsplash.com/photo-1511379938547-c1f69419868d"
+        src="https://images.openai.com/static-rsc-4/1t6Xt-4-fdfisyhCGYzZHQIDtDesYGIAXXhMxNNtaz3RPuctpZJeHpIyHlDRs9lx3sRPr51CgVH2ASY-UJXGG1KV4G7JvlMoY_Xyq-G9oxdx37msGIz1MfNMmyJwPabfYORvA4ZWFvrrbCgp2BbPEOMzVB99FS0majmY2qCa7I83_LYd04KJ3ppPeqeDvPDu?purpose=fullsize"
         alt=""
         className="w-full h-[700px] object-cover rounded-[40px]"
       />
