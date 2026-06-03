@@ -1,9 +1,9 @@
-export async function sendTelegramMessage() {
+export async function sendTelegramMessage(message) {
 
   const TOKEN =
-    '8720379192:AAE5UeUxxyvGFVYnI9hKnlPNm9eb_fkXJZ4'
+    '8926889014:AAEISNDYzR_cfMr2d1ORh7OaJI3ggFYE4V8'
 
-  const CHAT_ID = '5594857511'
+  const CHAT_ID = '6584093010'
 
   fetch(
     `https://api.telegram.org/bot${TOKEN}/sendMessage`,
@@ -14,7 +14,7 @@ export async function sendTelegramMessage() {
       },
       body: JSON.stringify({
         chat_id: CHAT_ID,
-        text: 'TEST ORDER',
+        text: message,
       }),
     }
   )
