@@ -289,7 +289,19 @@ export default function Cart() {
     ${totalPrice.toLocaleString()} ₸
     `
 
-    await sendTelegramMessage(orderMessage)
+    try {
+
+      await sendTelegramMessage(orderMessage)
+    
+      console.log('SUCCESS')
+    
+    } catch (error) {
+    
+      console.log(error)
+    
+      alert('Telegram error')
+    
+    }
     const existingOrders =
   JSON.parse(localStorage.getItem('orders')) || []
 
