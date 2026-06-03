@@ -1,13 +1,18 @@
 export async function sendTelegramMessage(message) {
 
+  try {
+
     console.log(message)
 
-    const TOKEN = '8830820240:AAGjLvWsWCAMmARjGyXBJm5Q62dJGaUMMvo'
-    const CHAT_ID = '6584093010'
-  
-    const url = `https://api.telegram.org/bot${TOKEN}/sendMessage`
-  
-    await fetch(url, {
+    const TOKEN =
+      '8720379192:AAE5UeUxxyvGFVYnI9hKnlPNm9eb_fkXJZ4'
+
+    const CHAT_ID = '5594857511'
+
+    const url =
+      `https://api.telegram.org/bot${TOKEN}/sendMessage`
+
+    const response = await fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -17,4 +22,17 @@ export async function sendTelegramMessage(message) {
         text: message,
       }),
     })
+
+    const data = await response.json()
+
+    console.log(data)
+
+  } catch (error) {
+
+    console.log(error)
+
+    alert('Telegram error')
+
   }
+
+}
